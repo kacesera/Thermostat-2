@@ -1,0 +1,50 @@
+body {
+  margin: 0 auto;
+  background-color: #d2e7e7;
+  font-family: HelveticaNeue-Light, Helvetica, sans-serif;
+  color: #292929;
+}
+
+h1 {
+  text-align: center;
+}
+
+#power_save {
+  text-align: center;
+  margin-top: 20%;
+}
+
+p {
+  text-align: center;
+}
+
+.temp_control {
+  border-radius: 20%;
+  margin-top: 2%;
+  height: 50px;
+  width: 50px;
+}
+.psm_control {
+  border-radius: 20%;
+  height: 100px;
+  width: 100px;
+}
+
+#power_save_on {
+  margin-top: 3%;
+  display: inline-block;
+}
+
+#reset {
+  margin-top: 2%;
+  border-radius: 20%;
+  height: 75px;
+  width: 100px;
+}
+
+button {
+  margin: 1%;
+  background-color: #eff8f8;
+  border: 1px currentColor;
+  font-size: 20px;
+}

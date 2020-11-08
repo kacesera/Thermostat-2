@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thermostat</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href=public/style.css>
+  <body>
+    <h1 id='temperature'>Current Temperature:</h1>
+
+    <h3 id='power_save'>Power Save: <span id='power_save_status'>ON</span></h3>
+    <p>
+      <button class= 'temp_control' id='up'>+</button>
+      <button class= 'temp_control' id='down'>-</button>
+    </p>
+    <p>
+      <button class= 'psm_control' id='power_save_on'>Power Save On</button>
+      <button class= 'psm_control' id='power_save_off'>Power Save Off</button>
+    </p>
+    <p>
+      <button id='reset'>RESET</button>
+    </p>
+
+    <script src="jquery.js"></script>
+    <script src="interface.js"></script>
+    <script src="../jasmine/src/Thermostat.js"></script>
+  </body>
+</html>
